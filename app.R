@@ -8,7 +8,7 @@ ht1 = Heatmap(rand_mat, name = "mat",
 ht1 = draw(ht1)
 
 ui = fluidPage(
-  h3("My first interactive ComplexHeatmap Shiny app"),
+  h3("Interactive ComplexHeatmap Shiny app"),
   p("This is an interactive heatmap visualization on a random matrix."),
   InteractiveComplexHeatmapOutput()
 )
